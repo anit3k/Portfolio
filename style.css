@@ -1,7 +1,7 @@
 /* My own CSS */
 
 .bg-header {
-	background-image:url('images/bagground-home.jpg');
+	background-image:url('images/bagground-home.jpg'); /* borrow from url: https://www.deviantart.com/kilartdev/art/Program-LeBlanc-774181093 */
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center;

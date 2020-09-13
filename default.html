@@ -1,189 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-	<!-- Head Section -->
-  <head class="bagground-header">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PORTFOLIO by Steffen Halberg</title>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-	<link href="style.css" rel="stylesheet">
 	
-  </head>
-  <body>
-	  <!-- NAVBAR / MENU -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" >
-      
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav  navbar-center">
-          <li class="nav-item active">
-            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#why">Why Software Development?</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#experience">Current Experince</a>
-          </li>
-		  <li class="nav-item active">
-            <a class="nav-link" href="#cv">Past Experience</a>
-          </li>
-		  <li class="nav-item active">
-            <a class="nav-link" href="#about">About</a>
+<!-- Head Section -->
+<head class="bagground-header">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PORTFOLIO by Steffen Halberg</title>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+  <!-- My own css -->
+  <link href="style.css" rel="stylesheet">
+</head>
+	
+<body>
+<!-- NAVBAR / MENU -->
+	<!-- Added some justifications to the CSS files, to make the links be centered! -->
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" >
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto navbar-center">
+      <li class="nav-item active"> <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a> </li>
+      <li class="nav-item active"> <a class="nav-link" href="#why">Why Software Development?</a> </li>
+      <li class="nav-item active"> <a class="nav-link" href="#experience">Current Experince</a> </li>
+      <li class="nav-item active"> <a class="nav-link" href="#cv">Past Experience</a> </li>
+      <li class="nav-item active"> <a class="nav-link" href="#about">About</a> </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HOME - playing with grid(css) and carousel(Bootstrap) -->
+<section id="home" class="bg-header grid">
+  <div class="box a"></div>
+  <div class="box b"></div>
+  <div class="box c"></div>
+  <div class="box d"></div>
+  <div class="box e">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner box">
+        <div class="carousel-item active">
+          <div class="col-12" align="center">
+            <h1><span class="badge badge-secondary"</span>Welcome to my portfolio.</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col-12" align="center">
+            <h2><span class="badge badge-secondary"</span>Hear you can read a little bit about me.</h2>
+          </div>
+        </div>
+        <div class="carousel-item" align="center">
+          <div class="col-12">
+            <h2><span class="badge badge-secondary"</span>What I have done in proffesionel life in the past.</h2>
+          </div>
+        </div>
+        <div class="carousel-item" align="center">
+          <div class="col-12">
+            <h2><span class="badge badge-secondary"</span>Where I wont to go, and what I do in my spare time!</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="box f"></div>
+  <div class="box g"></div>
+  <div class="box h"></div>
+  <div class="box i"></div>
+</section>
+<hr>
+
+<!-- WHY DEVELOPMENT -->
+<section id="why">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1>Why i want to be an Software Developer!</h1>
+        <p>Write some text about the subject!</p>
+      </div>
+    </div>
+  </div>
+</section>
+<hr>
+
+<!-- CURRENT WORK EXPERIENCE -->
+<section id="experience">
+  <div class="container mt-2">
+    <div class="col-12 text-center">
+      <h2>Projects that i made in Delfi Technologies</h2>
+      <p>Do to to polici of our company, a cant reveal the code, but i would describe what i have made and what tools i have been using!</p>
+      <br>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-12">
+        <ul class="list-unstyled">
+          <li class="media"> <img class="mr-3" src="images/35X35.gif" alt="Generic placeholder image">
+            <div class="media-body">
+              <h5 class="mt-0 mb-1">Printer Rollout project</h5>
+              This project was the first real assingment I got. I had to be the project manager, an make descriptions, flowchart etc. of an application for our technicians. The application is used for documentation of the installation of 1000 new printers in all Netto DK stores. They can add pictures, IP-adresses, Gateways, descriptions etc.  </div>
           </li>
         </ul>
       </div>
-    </nav>
-	  
-	  <!-- HOME -->
-    <section id="home" class="bg-header grid">
-      
-        <div class="box a"></div>
-        <div class="box b"></div>
-        <div class="box c"></div>
-        <div class="box d"></div>
-	  
-        <div class="box e">
-	      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  			  <div class="carousel-inner box">
-                
-                <div class="carousel-item active">
-		          <div class="col-12" align="center">
-                    <h1><span class="badge badge-secondary"</span>Welcome to my portfolio.</h1>
-		          </div>
-                </div>
-                <div class="carousel-item">
-				  <div class="col-12" align="center">  
-                    <h2><span class="badge badge-secondary"</span>Hear you can read a little bit about me.</h2>
-				  </div>
-                </div>
-				<div class="carousel-item" align="center">
-				  <div class="col-12">  
-                    <h2><span class="badge badge-secondary"</span>What I have done in proffesionel life in the past.</h2>
-				  </div>
-                </div>
-				  <div class="carousel-item" align="center">
-				  <div class="col-12">  
-                    <h2><span class="badge badge-secondary"</span>Where I wont to go, and what I do in my spare time!</h2>
-				  </div>
-                </div>
-              </div>
+      <div class="col-md-4 col-12">
+        <ul class="list-unstyled">
+          <li class="media"> <img class="mr-3" src="images/35X35.gif" alt="Generic placeholder image">
+            <div class="media-body">
+              <h5 class="mt-0 mb-1">API cXML order data conversion</h5>
+              An API that recives orders from one of our big custmores, they are using an external site to place there oders to us, an we recive the order in an cXML format. Then my program converts the data to an .xml file of my own creation, that is uploaded to our FTP-server, where we can import the order to Microsoft Navision! </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4 col-12">
+        <ul class="list-unstyled">
+          <li class="media"> <img class="mr-3" src="images/35X35.gif" alt="Generic placeholder image">
+            <div class="media-body">
+              <h5 class="mt-0 mb-1">Convert external stock data</h5>
+              My biggest project yet, spend almost 2 months writing this. Delfi has two external suppliers, and we have to extract to files pr supplier. One with the stocklevels, witch is update every hour, and one with prices, witch is update once a day! My application collect that data, one supplier with FTP connection, and one with direct download link. Then I convert the data from .xml, .xls, .dat, .xml, to a new xml-file(design by my and our team), then uploads it to our own FTP-server. Then our Microsoft Navision program reads the files, an updates all of our systems.</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<hr>
+
+<!-- PAST WORK EXPERIENCE -->
+<section id="cv">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2>Past work experience (not coding related)</h2>
+        <p>Add an table with my CV!</p>
+      </div>
+    </div>
+  </div>
+</section>
+<hr>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2>About (summary)</h2>
+        <p>In this section you can read small descriptions of my steps through this assignment</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Step 1: Code editor</h5>
+            <p class="card-text">I have been using Adobe Dreamveawer in this asignment, because I have read alot of possitive review on their software, an decited to give a shot, and I am very positive thus far!</p>
             </div>
-	    </div>
-	  
-	    <div class="box f"></div>
-	    <div class="box g"></div>
-	    <div class="box h"></div>
-	    <div class="box i"></div>
-      
-		
-		
-		
-        
-    </section>
-	<hr>
-	  
-	  <!-- WHY DEVELOPMENT -->
-    <section id="why">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h1>Why i want to be an Software Developer!</h1>
-            <p>Write some text about the subject!</p>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Step 2: Empty Site</h5>
+            <p class="card-text">I created an new document in Dreamweaver, using Bootstrap - Portfolio template. I could have used an complete empty document, and link the bootstrap from a remote locasion, but i wanted to try out Dreamveawers built in templates, to see how i works!</p>
           </div>
         </div>
       </div>
-    </section>
-	<hr>
-	  
-	<!-- CURRENT WORK EXPERIENCE -->
-    <section id="experience">
-      <div class="container mt-2">
-		  <div class="col-12 text-center">
-			  <h2>Projects that i made in Delfi Technologies</h2>
-			  <p>Do to to polici of our company, a cant reveal the code, but i would describe what i have made and what tools i have been using!</p><br>
-		  </div>
-        <div class="row">
-          <div class="col-md-4 col-12">
-            <ul class="list-unstyled">
-              <li class="media">
-                <img class="mr-3" src="images/35X35.gif" alt="Generic placeholder image">
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">Printer Rollout project</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4 col-12">
-            <ul class="list-unstyled">
-              <li class="media">
-                <img class="mr-3" src="images/35X35.gif" alt="Generic placeholder image">
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">API cXML order data conversion</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4 col-12">
-            <ul class="list-unstyled">
-              <li class="media">
-                <img class="mr-3" src="images/35X35.gif" alt="Generic placeholder image">
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">Convert external stock data</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
+    </div>
+  </div>
+</section>
+<hr>
+ 
+
+<!-- Footer Section -->
+<footer class="text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p>Copyright © Halberg.Ninja. All rights reserved.</p>
       </div>
-    </section>
-	<hr>
-	  
-	<!-- PAST WORK EXPERIENCE -->
-    <section id="cv">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h2>Past work experience (not coding related)</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, et, placeat !</p>
-          </div>
-        </div>
-		</div> 
-    </section>
-	<hr> <!-- makes a line -->
-	  
-	<!-- ABOUT -->
-    <section id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h2>About this assignment</h2>
-            <p>This assignment is to show some of the cool stuff we learn, doing client side programming</p>
-          </div>
-        </div>
-		</div> 
-    </section>
-	<hr> <!-- makes a line -->
-	
-	<!-- Footer Section -->
-    <footer class="text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <p>Copyright © Halberg.Ninja. All rights reserved.</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-	  
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap-4.4.1.js"></script>
-  </body>
+    </div>
+  </div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-3.4.1.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
 </html>
