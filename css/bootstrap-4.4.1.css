@@ -60,7 +60,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #c9c9c9;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -4737,6 +4737,7 @@ input[type="button"].btn-block {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  margin: 10px; /* Added by Steffen */
 }
 
 .card > hr {
