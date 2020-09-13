@@ -36,3 +36,13 @@
 #card {
 	margin: 100px;
 }
+
+.media-body h5 {
+	color: blueviolet;
+	font-family: cursive;
+}
+
+.card-body h5 {
+	color: blue;
+	font-family: cursive;
+}
