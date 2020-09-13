@@ -1,0 +1,14 @@
+/* My own CSS */
+
+.bg-header {
+	background-image:url('images/bagground-home.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	height: 1000px;
+	grid-template-rows: 1fr 1fr 1fr;
+	border: 2px blue solid;
+}
+
+
+
